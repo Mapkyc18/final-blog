@@ -31,3 +31,6 @@ Here’s the link to the AI chat used for setup help:
 **Student ID:** margal4113  
 **Course:** Web Design  
 **Date:** November 2025
+
+
+<img width="1879" height="1059" alt="image" src="https://github.com/user-attachments/assets/e1837bb7-d78d-4b9b-8cb2-390981abe57b" />
