@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marcus Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>The Study Sprint Blog</h1>
+  </header>
+
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="home" class="container">
+    <section id="blog" class="blog-grid">
+      <article class="card">
+        <h2>Balancing Classes and Projects</h2>
+        <p>Juggling homework with side projects is tough, but building small habits helps a lot. I plan short sessions and keep tasks simple.</p>
+        <p>Tools I use: a timer, a notes app, and a basic to-do list. Nothing fancy—just consistent.</p>
+      </article>
+
+      <article class="card">
+        <h2>What I’m Learning About CSS</h2>
+        <p>Flexbox makes layout way easier. I’m also getting used to media queries so things don’t break on phones.</p>
+        <p>I test styles in the browser first, then clean up the code and push to GitHub Pages.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="card contact-wrap">
+      <h2>Contact Me</h2>
+      <form class="contact-form" action="#" method="post" novalidate>
+        <div class="field">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" />
+        </div>
+
+        <div class="field field--full">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div class="actions">
+          <input type="submit" value="Send" />
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Student ID: margal4113 &nbsp; • &nbsp; &copy; 2025 Marcus Galdino</p>
+  </footer>
+</body>
+</html>
